@@ -1,4 +1,4 @@
-# ubuntu-pipewire-easyeffects-conig
+# ubuntu-pipewire-easyeffects-config
 
 An [EasyEffects](https://github.com/wwmm/easyeffects) speaker preset that gives laptop speakers a richer, premium sound on Linux (PipeWire).
 
@@ -41,9 +41,9 @@ Software can't replace speaker hardware — this recreates the *sound character*
 
 ```sh
 flatpak install flathub com.github.wwmm.easyeffects
-git clone https://github.com/Haynes79/ubuntu-pipewire-easyeffects-conig.git
+git clone https://github.com/Haynes79/ubuntu-pipewire-easyeffects-config.git
 mkdir -p ~/.var/app/com.github.wwmm.easyeffects/data/easyeffects/output
-cp ubuntu-pipewire-easyeffects-conig/output/Coffee-Tuned.json ~/.var/app/com.github.wwmm.easyeffects/data/easyeffects/output/
+cp ubuntu-pipewire-easyeffects-config/output/Coffee-Tuned.json ~/.var/app/com.github.wwmm.easyeffects/data/easyeffects/output/
 flatpak run com.github.wwmm.easyeffects
 ```
 
@@ -62,9 +62,9 @@ sudo pacman -S easyeffects        # Arch / Manjaro
 Then add and load the preset:
 
 ```sh
-git clone https://github.com/Haynes79/ubuntu-pipewire-easyeffects-conig.git
+git clone https://github.com/Haynes79/ubuntu-pipewire-easyeffects-config.git
 mkdir -p ~/.local/share/easyeffects/output
-cp ubuntu-pipewire-easyeffects-conig/output/Coffee-Tuned.json ~/.local/share/easyeffects/output/
+cp ubuntu-pipewire-easyeffects-config/output/Coffee-Tuned.json ~/.local/share/easyeffects/output/
 easyeffects -l Coffee-Tuned
 ```
 
