@@ -1,0 +1,1 @@
+# ubuntu-pipewire-easyeffects-conig
